@@ -1,0 +1,10 @@
+{
+  "name": "babylonjs-starter",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@babylonjs/core": "preview",
+    "@babylonjs/inspector": "preview",
+    "@babylonjs/loaders": "preview"
+  }
+}
