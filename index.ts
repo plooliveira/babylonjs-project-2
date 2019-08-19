@@ -1,5 +1,7 @@
 import { Engine, Scene, ArcRotateCamera, HemisphericLight, Vector3, MeshBuilder, PBRMetallicRoughnessMaterial, Color3 } from '@babylonjs/core';
 import { createEngine, createScene, createPBRSkybox, createArcRotateCamera } from './babylon';
+import "@babylonjs/core/Debug/debugLayer";
+import "@babylonjs/inspector";
 
 // Import stylesheets
 import './style.css';
@@ -49,3 +51,5 @@ export const __unload = () => {
   // delete old engine
   engine.dispose();
 }
+
+scene.debugLayer.show();
