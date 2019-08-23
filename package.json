@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@babylonjs/core": "preview",
-    "@babylonjs/inspector": "preview",
-    "@babylonjs/loaders": "preview"
+    "@babylonjs/core": "4.1.0-alpha.16",
+    "@babylonjs/inspector": "4.1.0-alpha.16",
+    "@babylonjs/loaders": "4.1.0-alpha.16",
+    "babylonjs": "^4.0.3",
+    "babylonjs-loaders": "4.0.3"
   }
 }
